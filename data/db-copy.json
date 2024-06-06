@@ -1,0 +1,88 @@
+{
+  "invoices": [
+    {
+      "id": "ec9f",
+      "user": "Maria Springer",
+      "price": 5.99,
+      "status": "paid",
+      "date": "2023-6-12"
+    },
+    {
+      "id": "c2f6",
+      "user": "Maria Mills",
+      "price": 10,
+      "status": "pending",
+      "date": "2023-8-23"
+    },
+    {
+      "id": "58a7",
+      "user": "Connor Parsons",
+      "price": 8.5,
+      "status": "pending",
+      "date": "2023-12-01"
+    },
+    {
+      "id": "0b07",
+      "user": "Diana Terry",
+      "price": 2.99,
+      "status": "paid",
+      "date": "2023-12-26"
+    },
+    {
+      "id": "f83d",
+      "user": "Trevor Payne",
+      "price": 2.5,
+      "status": "pending",
+      "date": "2023-12-26"
+    },
+    {
+      "id": "3212",
+      "user": "Gordon Kelly",
+      "price": 4.87,
+      "status": "paid",
+      "date": "2024-1-06"
+    },
+    {
+      "id": "28cf",
+      "user": "Trevor Payne",
+      "price": 8.65,
+      "status": "paid",
+      "date": "2024-1-22"
+    },
+    {
+      "id": "d594",
+      "user": "Joe Smith",
+      "price": 2.5,
+      "status": "pending",
+      "date": "2024-3-18"
+    },
+    {
+      "id": "fbb3",
+      "user": "Nicola Duncan",
+      "price": 9.99,
+      "status": "pending",
+      "date": "2024-4-10"
+    },
+    {
+      "id": "d607",
+      "user": "Adam Henderson",
+      "price": 6.66,
+      "status": "paid",
+      "date": "2024-5-29"
+    },
+    {
+      "id": "2b96",
+      "user": "Kylie Miller",
+      "price": 6.66,
+      "status": "pending",
+      "date": "2024-6-12"
+    },
+    {
+      "id": "2eda",
+      "user": "Connor Parsons",
+      "price": 5,
+      "status": "pending",
+      "date": "2023-6-16"
+    }
+  ]
+}

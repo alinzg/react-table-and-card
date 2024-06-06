@@ -1,0 +1,85 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 15px 0;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 6px;
+  /* display: flex; */
+  gap: 12px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 75px 160px 90px 100px 120px 60px 60px;
+  padding: 15px 40px;
+  align-items: center;
+}
+/* .row div {
+  padding: 10px 20px;
+} */
+.row:first-child {
+  border-bottom: 3px solid red;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.row:last-child {
+  margin-bottom: 12px;
+}
+
+.row button {
+  border: none;
+  background-color: #ff621f;
+  color: white;
+  width: 55px;
+  height: 25px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.row button:active {
+  background-color: #ff2814;
+}
+
+.row a {
+  padding: 4px 15px;
+  border: none;
+  background-color: #ddd;
+  width: 55px;
+  height: 25px;
+  border-radius: 100px;
+  font-size: 14px;
+}
+.row a:active {
+  background-color: #cccccc;
+}
+
+.create-new-invoice {
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  color: white;
+  align-self: end;
+}
+.create-new-invoice:hover {
+  background-color: #ed0000;
+}
+.create-new-invoice:active {
+  background-color: #d10000;
+}
+
+.paid {
+  background-color: #48bb5f;
+  padding: 3px 13.5px;
+  color: white;
+  border-radius: 100px;
+  width: 56px;
+  height: 24px;
+  font-size: 14px;
+}
